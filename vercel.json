@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/admin", "destination": "/" },
+    { "source": "/admin/(.*)", "destination": "/" },
+    { "source": "/merch", "destination": "/" },
+    { "source": "/merch/(.*)", "destination": "/" },
+    { "source": "/pricing", "destination": "/" },
+    { "source": "/purchase-success", "destination": "/" },
+    { "source": "/secret-dashboard", "destination": "/" },
+    { "source": "/secret-dashboard/(.*)", "destination": "/" },
+    { "source": "/update-profile", "destination": "/" },
+    { "source": "/api/auth/kinde_callback", "destination": "/" }
+  ]
+}
